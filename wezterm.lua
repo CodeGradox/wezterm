@@ -14,7 +14,7 @@ config.send_composed_key_when_right_alt_is_pressed = true
 config.keys = {
   { key = "LeftArrow",  mods = "CMD|SHIFT", action = wezterm.action.MoveTabRelative(-1) },
   { key = "RightArrow", mods = "CMD|SHIFT", action = wezterm.action.MoveTabRelative(1) },
-  { key = "Space",      mods = "ALT",    action = wezterm.action.SendKey({ key = "Space" }) }
+  { key = "Space",      mods = "ALT",       action = wezterm.action.SendKey({ key = "Space" }) }
 }
 
 config.color_schemes = {
